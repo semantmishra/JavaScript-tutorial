@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>14.JavaScript</title>
+</head>
+<body>
+<script type="text/javascript">
+	// date and time
+
+	let date = new Date();
+
+	//console.log(date.toLocaleDateString()); // current date
+
+	//console.log(date.toLocaleTimeString()) //current time
+
+// 	console.log(date.getDate()); // date
+
+// 	console.log(date.getMonth()+1);// month
+// console.log(date.getFullYear()) // year
+
+// let my_date = date.getDate()+"-"+(date.getMonth()+1)+"-"+date.getFullYear();
+// console.log(my_date);
+
+
+
+// setTimeout(  function(){
+// console.log(date.toLocaleTimeString());
+// }  , 3000);
+
+setInterval( function(){
+	console.log(date.toLocaleTimeString());
+}, 100 )
+
+
+</script>
+</body>
+</html>
