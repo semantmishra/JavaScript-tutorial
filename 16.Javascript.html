@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> 16.Javascript Event </title>
+</head>
+<body>
+
+	<!-- <button id="btn" onclick="myfuntion()"  >Click</button> -->
+
+	<input type="password" name="name"  id="name" >
+	
+	<!-- <p id="show-name" > Name: </p> -->
+
+	<button id="btn">show</button>
+
+<script type="text/javascript">
+	let button = document.getElementById('btn');
+	button.onclick = function(){
+		let input = document.getElementById("name")
+		if(input.type=="password"){
+			input.type = "text";
+			this.innerHTML = "Hide";
+		}else{
+			input.type = "password";
+			this.innerHTML = "show";
+		}
+	}
+
+	
+
+
+	// button.onclick = function(){
+	// 	let name = document.getElementById("name");
+	// 	let p = document.getElementById("show-name")
+	// 	p.innerHTML = "Name : "+name.value
+
+
+	// }
+
+
+
+
+
+
+
+
+
+	// button.onclick = function(){
+	// 	console.log("Click");
+	// }
+	// function myfuntion() {
+	// 	console.log("Click");
+	// }
+	// button.addEventListener("click",myfuntion);
+
+// button.addEventListener("click",function(){
+// 	console.log("Click");
+// })
+
+
+
+
+
+</script>
+</body>
+</html>
