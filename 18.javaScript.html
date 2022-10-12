@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>18.javaScript  </title>
+<style type="text/css">
+#course{
+	color: blue;
+	border: solid;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+	<!-- 1. inline 
+	2. internal css
+	3. external css -->
+<!-- 	<p id="name" style="color: red;font-size:15px"   >My Name is Semant</p>
+	<p id="course">Course JAvascript</p>
+	<p id="address"> India </p> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<p id="mydata">My Name is Semant</p>
+
+
+	<button id="btn"> Apply Style </button>
+
+	<script type="text/javascript">
+
+ let btn =  document.getElementById('btn')
+ btn.onclick = function () {
+	let p = document.getElementById('mydata');
+	p.style.color = "blue";
+	p.style.fontSize = "50px";
+ }
+
+	</script>
+
+</body>
+</html>
