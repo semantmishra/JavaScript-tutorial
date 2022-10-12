@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>19.javascript </title>
+</head>
+<body>
+
+<!-- <p id="name">My Name is Semant</p> -->
+
+<div>
+	<p>JavaScript</p>
+	<p>JavaScript</p>
+	<p>JavaScript</p>
+</div>
+
+<input type="color" id="color">
+
+<input type="range" id="range" min="3" max="100">
+
+<script type="text/javascript">
+// let color=document.getElementById('color')
+// let p = document.getElementById("name")
+// let ran = document.getElementById("range")
+// ran.oninput = function(){
+// 	p.style.fontSize = this.value+"px"
+// }
+// color.onchange = function () {
+// 	p.style.color = this.value
+// }
+
+document.onclick = function(e){
+	e.target.style.border = "solid";
+}
+document.ondblclick = function(e){
+	e.target.removeAttribute("style")
+}
+
+
+
+
+
+</script>
+</body>
+</html>
